@@ -379,7 +379,7 @@
             <!-- Menu Buttons -->
             <div class="grid grid-cols-2 gap-4 mb-4">
                 <button class="btn-retro bg-blue-500 text-white py-3 !rounded-button text-sm" id="messageBtn">MESSAGE</button>
-                <button class="btn-retro bg-red-500 text-white py-3 !rounded-button text-sm" id="galleryBtn">GALLERY</button>
+<!--                 <button class="btn-retro bg-red-500 text-white py-3 !rounded-button text-sm" id="galleryBtn">GALLERY</button> -->
                 <button class="btn-retro bg-purple-500 text-white py-3 !rounded-button text-sm" id="musicBtn">MUSIC</button>
                 <button class="btn-retro bg-green-500 text-white py-3 !rounded-button text-sm" id="tetrisBtn">TETRIS</button>
             </div>
@@ -464,7 +464,7 @@
             const screens = {
                 home: document.getElementById('homeScreen'),
                 message: document.getElementById('messageScreen'),
-                gallery: document.getElementById('galleryScreen'),
+                // gallery: document.getElementById('galleryScreen'),
                 music: document.getElementById('musicScreen'),
                 tetris: document.getElementById('tetrisScreen'),
             };
@@ -472,7 +472,7 @@
             // Button elements
             const buttons = {
                 message: document.getElementById('messageBtn'),
-                gallery: document.getElementById('galleryBtn'),
+                // gallery: document.getElementById('galleryBtn'),
                 music: document.getElementById('musicBtn'),
                 tetris: document.getElementById('tetrisBtn'),
                 start: document.getElementById('startBtn'),
@@ -624,7 +624,7 @@
 
             // Button click handlers
             buttons.message.addEventListener('click', () => showScreen('message'));
-            buttons.gallery.addEventListener('click', () => showScreen('gallery'));
+            // buttons.gallery.addEventListener('click', () => showScreen('gallery'));
             buttons.music.addEventListener('click', () => showScreen('music'));
             buttons.tetris.addEventListener('click', () => showScreen('tetris'));
             buttons.start.addEventListener('click', () => {
